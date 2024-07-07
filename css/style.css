@@ -1,0 +1,43 @@
+
+
+/*davaleba N1*/
+
+.button1_div {
+    width: 500px;
+    height: 300px;
+    background-color: pink;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.button1 {
+    width: 300px;
+    height: 100px;
+    display: block;
+    margin: 100px auto;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    background: pink;
+    box-shadow: 5px 5px 5px black,
+        inset 5px 5px 5px white;
+    text-shadow: 3px 3px 3px black;
+    transition-property: all;
+
+}
+
+
+.button1:active {
+    box-shadow: inset 5px 5px 5px black,
+        inset -5px -5px 5px white;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+/*davaleba N2*/
+
+
+
