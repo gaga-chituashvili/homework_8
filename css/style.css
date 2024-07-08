@@ -210,33 +210,21 @@
 .loading_bar_article {
     width: 50px;
     height: 100%;
-    background-color: bisque;
-    animation-name: article;
-    animation-duration: 6s;
+    background-color: rgb(142, 80, 84);
+    animation-name: done;
+    animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+
+
+
 }
 
-@keyframes article {
 
-    from {
-        margin-right: 0%;
-        background-color: rgb(166, 136, 178);
-    }
 
+@keyframes done {
     to {
-        margin-left: 840px;
-        background-color: rgb(166, 136, 178);
+        width: 100%;
     }
-
-
-
-
-
-
 }
-
-
-
-/*droshi verchavetie samammde, me-6 davalebas davasruleb da shevasworeb*/
