@@ -139,17 +139,17 @@
 
 .spiner_text {
     font-size: 30px;
-   
+
 }
 
-.spiner:hover{
+.spiner:hover {
     animation-play-state: paused;
 }
 
 
 /*davaleba N5*/
 
-.header{
+.header {
     width: 1440px;
     height: 131px;
     margin: 100px auto;
@@ -161,27 +161,26 @@
 
 
 
-.header_ul{
+.header_ul {
     display: flex;
     column-gap: 44px;
 }
 
 
-.header_li_link{
-font-family: Inter;
-font-size: 24px;
-font-weight: 400;
-line-height: 32px;
-color: #FCC21B;
-transition-property: text-shadow;
-transition-duration: 1s;
-transition-timing-function: linear;
+.header_li_link {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FCC21B;
+    transition-property: text-shadow;
+    transition-duration: 1s;
+    transition-timing-function: linear;
 }
 
-.header_li_link:hover{
-      text-shadow: 0 0 10px white,
-      0 0 10px white
-      
+.header_li_link:hover {
+    text-shadow: 0 0 10px white,
+        0 0 10px white
 }
 
 
@@ -189,7 +188,7 @@ transition-timing-function: linear;
 /*davaleba N6*/
 
 
-.loading_bar{
+.loading_bar {
     width: 900px;
     height: 50px;
     margin: 100px auto;
@@ -200,39 +199,15 @@ transition-timing-function: linear;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
-    
-    
-
-}
-
-@keyframes fill {
-    20%{ 
-        
-     
-    }
-    40%{
-
-    }
-    60%{
-
-    }
-    80%{
-
-    }
-    100%{
-
-    }
-    
-
-
-
 
 
 
 }
 
 
-.loading_bar_article{
+
+
+.loading_bar_article {
     width: 50px;
     height: 100%;
     background-color: bisque;
@@ -243,17 +218,17 @@ transition-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
-@keyframes article{
+@keyframes article {
 
-   from{
-    margin-right: 0%;
-    background-color: rgb(166, 136, 178);
-   }
+    from {
+        margin-right: 0%;
+        background-color: rgb(166, 136, 178);
+    }
 
-   to{
-    margin-left: 840px;
-    background-color: rgb(166, 136, 178);
-   }
+    to {
+        margin-left: 840px;
+        background-color: rgb(166, 136, 178);
+    }
 
 
 
@@ -261,3 +236,7 @@ transition-timing-function: linear;
 
 
 }
+
+
+
+/*droshi verchavetie samammde, me-6 davalebas davasruleb da shevasworeb*/
