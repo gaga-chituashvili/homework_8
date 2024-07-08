@@ -39,20 +39,10 @@
 
 
 
-
-.figure_div {
-    width: 400px;
-    height: 600px;
-    display: inline-block;
-    margin-left: 30px;
-    background-color: antiquewhite;
-    
-
-}
-
 .figure {
-    border: 10px solid black;
-    
+    display: inline-block;
+    margin-left: 20px;
+    padding: 20px;
 }
 
 
@@ -63,10 +53,96 @@
 
 .figure_img:hover {
     border-radius: 25px 25px 0 0;
+
 }
+
+.figure:hover {
+    box-shadow: 10px 10px 10px rgb(86, 141, 5),
+        -10px -10px 10px rgb(86, 141, 5);
+    border-radius: 25px;
+}
+
 
 .img_description {
     font-size: 15px;
     color: rgb(86, 141, 5);
     margin-block: 10px;
+}
+
+/*davaleba N3*/
+
+
+.sectionN3_text {
+    margin: 50px;
+}
+
+
+.textN3 {
+    font-size: 140px;
+    letter-spacing: 20px;
+    color: red;
+    animation-name: textN2;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes textN2 {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+
+/*davaleba N4 */
+
+.spiner {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-top: 10px solid green;
+    border-right: 10px solid red;
+    border-bottom: 10px solid yellow;
+    border-left: 10px solid darkgrey;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+
+}
+
+
+
+@keyframes spin {
+    from {
+        transform: rotate(360deg);
+    }
+}
+
+
+.spiner_text {
+    font-size: 30px;
+   
+}
+
+.spiner:hover{
+    animation-play-state: paused;
 }
