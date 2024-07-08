@@ -20,10 +20,11 @@
     font-size: 20px;
     border-radius: 20px;
     background: pink;
+    transition-property: box-shadow, text-shadow;
     box-shadow: 5px 5px 5px black,
         inset 5px 5px 5px white;
     text-shadow: 3px 3px 3px black;
-    transition-property: all;
+    
 
 }
 
@@ -81,9 +82,7 @@
     font-size: 140px;
     letter-spacing: 20px;
     color: red;
-    animation-name: textN2;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
+    animation: textN2 0.5s infinite;
 }
 
 @keyframes textN2 {
@@ -173,9 +172,7 @@
     font-weight: 400;
     line-height: 32px;
     color: #FCC21B;
-    transition-property: text-shadow;
-    transition-duration: 1s;
-    transition-timing-function: linear;
+    transition: text-shadow 1s linear;
 }
 
 .header_li_link:hover {
@@ -194,14 +191,6 @@
     margin: 100px auto;
     border: 5px solid black;
     border-radius: 10px;
-    animation-name: fill;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-
-
-
 }
 
 
@@ -211,14 +200,7 @@
     width: 50px;
     height: 100%;
     background-color: rgb(142, 80, 84);
-    animation-name: done;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-
-
-
+    animation: done 5s linear 1 forwards;
 }
 
 
